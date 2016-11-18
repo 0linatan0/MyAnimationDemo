@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C3C200D1DDC80BA001E54B1 /* MyLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3C200C1DDC80BA001E54B1 /* MyLayerViewController.m */; };
+		4C3C20101DDC885F001E54B1 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3C200F1DDC885F001E54B1 /* MyView.m */; };
 		4C3D7D2A1DD9C077005FFA55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D7D291DD9C077005FFA55 /* main.m */; };
 		4C3D7D2D1DD9C077005FFA55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D7D2C1DD9C077005FFA55 /* AppDelegate.m */; };
-		4C3D7D301DD9C077005FFA55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D7D2F1DD9C077005FFA55 /* ViewController.m */; };
+		4C3D7D301DD9C077005FFA55 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D7D2F1DD9C077005FFA55 /* MyViewController.m */; };
 		4C3D7D331DD9C077005FFA55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D7D311DD9C077005FFA55 /* Main.storyboard */; };
 		4C3D7D351DD9C077005FFA55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D7D341DD9C077005FFA55 /* Assets.xcassets */; };
 		4C3D7D381DD9C077005FFA55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D7D361DD9C077005FFA55 /* LaunchScreen.storyboard */; };
 		4C3D7D431DD9C077005FFA55 /* MyAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D7D421DD9C077005FFA55 /* MyAnimationDemoTests.m */; };
 		4C3D7D4E1DD9C077005FFA55 /* MyAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D7D4D1DD9C077005FFA55 /* MyAnimationDemoUITests.m */; };
+		4C3E5E391DDDAC9700AB9ACD /* MyCardChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3E5E381DDDAC9700AB9ACD /* MyCardChangeViewController.m */; };
+		4C3E5E3C1DDDCA9C00AB9ACD /* MyListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3E5E3B1DDDCA9C00AB9ACD /* MyListView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C3C200B1DDC80BA001E54B1 /* MyLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLayerViewController.h; sourceTree = "<group>"; };
+		4C3C200C1DDC80BA001E54B1 /* MyLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLayerViewController.m; sourceTree = "<group>"; };
+		4C3C200E1DDC885F001E54B1 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		4C3C200F1DDC885F001E54B1 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
 		4C3D7D251DD9C077005FFA55 /* MyAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C3D7D291DD9C077005FFA55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4C3D7D2B1DD9C077005FFA55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4C3D7D2C1DD9C077005FFA55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4C3D7D2E1DD9C077005FFA55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4C3D7D2F1DD9C077005FFA55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4C3D7D2E1DD9C077005FFA55 /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		4C3D7D2F1DD9C077005FFA55 /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 		4C3D7D321DD9C077005FFA55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C3D7D341DD9C077005FFA55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C3D7D371DD9C077005FFA55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +59,10 @@
 		4C3D7D491DD9C077005FFA55 /* MyAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C3D7D4D1DD9C077005FFA55 /* MyAnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAnimationDemoUITests.m; sourceTree = "<group>"; };
 		4C3D7D4F1DD9C077005FFA55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3E5E371DDDAC9700AB9ACD /* MyCardChangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCardChangeViewController.h; sourceTree = "<group>"; };
+		4C3E5E381DDDAC9700AB9ACD /* MyCardChangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCardChangeViewController.m; sourceTree = "<group>"; };
+		4C3E5E3A1DDDCA9C00AB9ACD /* MyListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyListView.h; path = view/MyListView.h; sourceTree = "<group>"; };
+		4C3E5E3B1DDDCA9C00AB9ACD /* MyListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyListView.m; path = view/MyListView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +115,21 @@
 			children = (
 				4C3D7D2B1DD9C077005FFA55 /* AppDelegate.h */,
 				4C3D7D2C1DD9C077005FFA55 /* AppDelegate.m */,
-				4C3D7D2E1DD9C077005FFA55 /* ViewController.h */,
-				4C3D7D2F1DD9C077005FFA55 /* ViewController.m */,
+				4C3D7D2E1DD9C077005FFA55 /* MyViewController.h */,
+				4C3D7D2F1DD9C077005FFA55 /* MyViewController.m */,
 				4C3D7D311DD9C077005FFA55 /* Main.storyboard */,
 				4C3D7D341DD9C077005FFA55 /* Assets.xcassets */,
 				4C3D7D361DD9C077005FFA55 /* LaunchScreen.storyboard */,
 				4C3D7D391DD9C077005FFA55 /* Info.plist */,
 				4C3D7D281DD9C077005FFA55 /* Supporting Files */,
+				4C3C200B1DDC80BA001E54B1 /* MyLayerViewController.h */,
+				4C3C200C1DDC80BA001E54B1 /* MyLayerViewController.m */,
+				4C3C200E1DDC885F001E54B1 /* MyView.h */,
+				4C3C200F1DDC885F001E54B1 /* MyView.m */,
+				4C3E5E371DDDAC9700AB9ACD /* MyCardChangeViewController.h */,
+				4C3E5E381DDDAC9700AB9ACD /* MyCardChangeViewController.m */,
+				4C3E5E3A1DDDCA9C00AB9ACD /* MyListView.h */,
+				4C3E5E3B1DDDCA9C00AB9ACD /* MyListView.m */,
 			);
 			path = MyAnimationDemo;
 			sourceTree = "<group>";
@@ -211,12 +231,12 @@
 					};
 					4C3D7D3D1DD9C077005FFA55 = {
 						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						TestTargetID = 4C3D7D241DD9C077005FFA55;
 					};
 					4C3D7D481DD9C077005FFA55 = {
 						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						TestTargetID = 4C3D7D241DD9C077005FFA55;
 					};
 				};
@@ -273,9 +293,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C3D7D301DD9C077005FFA55 /* ViewController.m in Sources */,
+				4C3C200D1DDC80BA001E54B1 /* MyLayerViewController.m in Sources */,
+				4C3D7D301DD9C077005FFA55 /* MyViewController.m in Sources */,
 				4C3D7D2D1DD9C077005FFA55 /* AppDelegate.m in Sources */,
+				4C3E5E391DDDAC9700AB9ACD /* MyCardChangeViewController.m in Sources */,
+				4C3E5E3C1DDDCA9C00AB9ACD /* MyListView.m in Sources */,
 				4C3D7D2A1DD9C077005FFA55 /* main.m in Sources */,
+				4C3C20101DDC885F001E54B1 /* MyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +394,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -411,7 +435,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -446,6 +470,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MyAnimationDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.netease.www.MyAnimationDemoTests;
@@ -458,6 +483,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MyAnimationDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.netease.www.MyAnimationDemoTests;
@@ -469,6 +495,7 @@
 		4C3D7D591DD9C077005FFA55 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MyAnimationDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.netease.www.MyAnimationDemoUITests;
@@ -480,6 +507,7 @@
 		4C3D7D5A1DD9C077005FFA55 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MyAnimationDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.netease.www.MyAnimationDemoUITests;
@@ -507,6 +535,7 @@
 				4C3D7D541DD9C077005FFA55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C3D7D551DD9C077005FFA55 /* Build configuration list for PBXNativeTarget "MyAnimationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +544,7 @@
 				4C3D7D571DD9C077005FFA55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C3D7D581DD9C077005FFA55 /* Build configuration list for PBXNativeTarget "MyAnimationDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +553,7 @@
 				4C3D7D5A1DD9C077005FFA55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "MyViewController.h"
+#import "MyLayerViewController.h"
+#import "MyCardChangeViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,27 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    UITabBarController *tabController=[[UITabBarController alloc]init];
+    self.window.rootViewController=tabController;
+    
+    MyViewController *myViewController = [[MyViewController alloc] init];
+    myViewController.tabBarItem.title=@"animationGroup";
+    myViewController.tabBarItem.image=[UIImage imageNamed:@"boy1.png"];
+    
+    MyCardChangeViewController *myCardChangeViewController = [[MyCardChangeViewController alloc] init];
+    myCardChangeViewController.tabBarItem.title=@"transition";
+    myCardChangeViewController.tabBarItem.image=[UIImage imageNamed:@"boy2.png"];
+    
+    [tabController addChildViewController:myViewController];
+    [tabController addChildViewController:myCardChangeViewController];
+
+//    MyLayerViewController *myViewController = [[MyLayerViewController alloc] init];
+//    MyCardChangeViewController *myViewController = [[MyCardChangeViewController alloc] init];
+//    self.window.rootViewController = myViewController;
+    [self.window makeKeyWindow];
     return YES;
 }
 

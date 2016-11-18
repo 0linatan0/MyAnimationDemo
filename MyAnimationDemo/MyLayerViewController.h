@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  MyLayerViewController.h
 //  MyAnimationDemo
 //
-//  Created by 谭丽 on 16/11/14.
+//  Created by 谭丽 on 16/11/16.
 //  Copyright © 2016年 linatan. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MyLayerViewController : UIViewController
 
 @end
-
