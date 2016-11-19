@@ -80,6 +80,16 @@ static const NSInteger imageSize = 180;
     [self showOneCardAnimation];
     [self showOtherCardAnimation];
     [CATransaction commit];
+
+
+    [UIView animateKeyframesWithDuration:1.2 delay:0.0 options:UIViewKeyframeAnimationOptionCalculationModeLinear animations:^{
+        [UIView addKeyframeWithRelativeStartTime:0.0 relativeDuration:1.2 animations:^{
+            _cardOne.frame = CGRectMake(0, 50, imageSize, imageSize);
+        }];
+    } completion:^(BOOL finished) {
+        //...
+    }];
+    
 }
 
 - (void)showOneCardAnimation

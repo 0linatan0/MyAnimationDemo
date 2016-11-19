@@ -36,11 +36,17 @@ static const NSInteger rowHeight = 20;
         [self addSubview:_tableView];
         
         self.frame = CGRectMake(_copyBtn.frame.origin.x, _copyBtn.frame.origin.y + _copyBtn.frame.size.height, 0, 0);
+        
         [UIView beginAnimations:nil context:nil];
         [UIView setAnimationDuration:0.5];
         self.frame = CGRectMake(_copyBtn.frame.origin.x, _copyBtn.frame.origin.y + _copyBtn.frame.size.height, _copyBtn.frame.size.width, tableHeight);
         _tableView.frame = CGRectMake(0, 0, _copyBtn.bounds.size.width, tableHeight);
         [UIView commitAnimations];
+        
+//        [UIView animateWithDuration:0.5 delay:0.0 usingSpringWithDamping:0.5 initialSpringVelocity:4 options:UIViewAnimationOptionCurveEaseIn animations:^{
+//            self.frame = CGRectMake(_copyBtn.frame.origin.x, _copyBtn.frame.origin.y + _copyBtn.frame.size.height, _copyBtn.frame.size.width, tableHeight);
+//            _tableView.frame = CGRectMake(0, 0, _copyBtn.bounds.size.width, tableHeight);
+//        } completion:nil];
 
     }
     return self;

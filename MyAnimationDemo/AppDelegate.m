@@ -10,6 +10,7 @@
 #import "MyViewController.h"
 #import "MyLayerViewController.h"
 #import "MyCardChangeViewController.h"
+#import "MyWaveAnimationViewController.h"
 
 @interface AppDelegate ()
 
@@ -34,8 +35,13 @@
     myCardChangeViewController.tabBarItem.title=@"transition";
     myCardChangeViewController.tabBarItem.image=[UIImage imageNamed:@"boy2.png"];
     
+    MyWaveAnimationViewController *waveAnimationController = [[MyWaveAnimationViewController alloc] init];
+    waveAnimationController.tabBarItem.title = @"test";
+    waveAnimationController.tabBarItem.image = [UIImage imageNamed:@"boy1.png"];
+    
     [tabController addChildViewController:myViewController];
     [tabController addChildViewController:myCardChangeViewController];
+    [tabController addChildViewController:waveAnimationController];
 
 //    MyLayerViewController *myViewController = [[MyLayerViewController alloc] init];
 //    MyCardChangeViewController *myViewController = [[MyCardChangeViewController alloc] init];

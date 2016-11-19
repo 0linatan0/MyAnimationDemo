@@ -21,6 +21,7 @@
 - (nullable id<CAAction>)actionForLayer:(CALayer *)layer forKey:(NSString *)event
 {
     id action = [super actionForLayer:layer forKey:event];
+    NSLog(@"layer:%@ event:%@ action: %@",layer, event, action);
     return action;
 }
 

@@ -19,6 +19,7 @@
 		4C3D7D4E1DD9C077005FFA55 /* MyAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D7D4D1DD9C077005FFA55 /* MyAnimationDemoUITests.m */; };
 		4C3E5E391DDDAC9700AB9ACD /* MyCardChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3E5E381DDDAC9700AB9ACD /* MyCardChangeViewController.m */; };
 		4C3E5E3C1DDDCA9C00AB9ACD /* MyListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3E5E3B1DDDCA9C00AB9ACD /* MyListView.m */; };
+		4CE37B0E1DDED00A001B5ED0 /* MyWaveAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE37B0D1DDED00A001B5ED0 /* MyWaveAnimationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		4C3E5E381DDDAC9700AB9ACD /* MyCardChangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCardChangeViewController.m; sourceTree = "<group>"; };
 		4C3E5E3A1DDDCA9C00AB9ACD /* MyListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyListView.h; path = view/MyListView.h; sourceTree = "<group>"; };
 		4C3E5E3B1DDDCA9C00AB9ACD /* MyListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyListView.m; path = view/MyListView.m; sourceTree = "<group>"; };
+		4CE37B0C1DDED00A001B5ED0 /* MyWaveAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWaveAnimationViewController.h; sourceTree = "<group>"; };
+		4CE37B0D1DDED00A001B5ED0 /* MyWaveAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWaveAnimationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,8 @@
 				4C3E5E381DDDAC9700AB9ACD /* MyCardChangeViewController.m */,
 				4C3E5E3A1DDDCA9C00AB9ACD /* MyListView.h */,
 				4C3E5E3B1DDDCA9C00AB9ACD /* MyListView.m */,
+				4CE37B0C1DDED00A001B5ED0 /* MyWaveAnimationViewController.h */,
+				4CE37B0D1DDED00A001B5ED0 /* MyWaveAnimationViewController.m */,
 			);
 			path = MyAnimationDemo;
 			sourceTree = "<group>";
@@ -295,6 +300,7 @@
 			files = (
 				4C3C200D1DDC80BA001E54B1 /* MyLayerViewController.m in Sources */,
 				4C3D7D301DD9C077005FFA55 /* MyViewController.m in Sources */,
+				4CE37B0E1DDED00A001B5ED0 /* MyWaveAnimationViewController.m in Sources */,
 				4C3D7D2D1DD9C077005FFA55 /* AppDelegate.m in Sources */,
 				4C3E5E391DDDAC9700AB9ACD /* MyCardChangeViewController.m in Sources */,
 				4C3E5E3C1DDDCA9C00AB9ACD /* MyListView.m in Sources */,

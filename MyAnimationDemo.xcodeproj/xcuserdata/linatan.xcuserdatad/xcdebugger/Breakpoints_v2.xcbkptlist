@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyAnimationDemo/MyView.m"
-            timestampString = "500992114.200436"
+            timestampString = "501231656.23658"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "23"
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyAnimationDemo/view/MyListView.m"
-            timestampString = "501081131.39628"
+            timestampString = "501249623.683178"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
             landmarkName = "-hideDropDown:"
             landmarkType = "7">
          </BreakpointContent>
