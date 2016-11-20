@@ -41,7 +41,7 @@
     
     [tabController addChildViewController:myViewController];
     [tabController addChildViewController:myCardChangeViewController];
-    [tabController addChildViewController:waveAnimationController];
+//    [tabController addChildViewController:waveAnimationController];
 
 //    MyLayerViewController *myViewController = [[MyLayerViewController alloc] init];
 //    MyCardChangeViewController *myViewController = [[MyCardChangeViewController alloc] init];
